@@ -1,0 +1,87 @@
+# ===============================
+# UNITY (multi-project repo)
+# ===============================
+
+.utmp/
+
+# Unity generated folders (ANY level)
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+
+# Logs
+*.log
+
+# Memory & recordings
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+
+# Blender
+*.blend1
+*.blend1.meta
+
+# JetBrains Rider
+**/[Aa]ssets/Plugins/Editor/JetBrains*
+*.DotSettings.user
+
+# Visual Studio / Rider
+.vs/
+.gradle/
+.consulo/
+ExportedObj/
+
+# Solution & project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity meta for generated files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports
+sysinfo.txt
+mono_crash.*
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Crashlytics
+crashlytics-build.properties
+
+# Test Runner
+InitTestScene*.unity*
+
+# Addressables (ANY project)
+**/ServerData
+**/[Aa]ssets/StreamingAssets/aa*
+**/[Aa]ssets/AddressableAssetsData/link.xml*
+**/[Aa]ssets/Addressables_Temp*
+**/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting
+**/[Aa]ssets/Unity.VisualScripting.Generated/
+
+# Auto-generated test scenes
+**/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
