@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
         }
         txtScore.text = string.Format("{0,4:D4}", score);
 
-        if (score % 500 = 0)
+        if ((score % 500) == 0)
         {
             lifeUp();
         }
